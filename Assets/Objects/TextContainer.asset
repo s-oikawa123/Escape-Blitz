@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f1da517151c8841a81eca8d562c92b, type: 3}
+  m_Name: TextContainer
+  m_EditorClassIdentifier: 
+  failReason:
+    utility:
+    - expandFlag: 0
+      english: Time up
+      japanese: "\u6642\u9593\u5207\u308C"
+    - expandFlag: 0
+      english: The room had no anomaly
+      japanese: "\u3053\u306E\u90E8\u5C4B\u306B\u306F\u7570\u5909\u306F\u306A\u304B\u3063\u305F"
+    roomRoom:
+    - expandFlag: 0
+      english: Opened the wrong door
+      japanese: "\u958B\u3051\u308B\u6249\u3092\u9593\u9055\u3048\u305F"
+    - expandFlag: 0
+      english: There is no correct door
+      japanese: "\u6B63\u3057\u3044\u6249\u306F\u306A\u304B\u3063\u305F"
+    lineRoom:
+    - expandFlag: 0
+      english: Stepped the air
+      japanese: "\u8DB3\u3092\u8E0F\u307F\u5916\u3057\u305F"
+    passwordRoom:
+    - expandFlag: 0
+      english: Input length of keypad was shorter than length of passward
+      japanese: "\u30AD\u30FC\u30D1\u30C3\u30C9\u306E\u5165\u529B\u6587\u5B57\u6570\u3068\u30D1\u30B9\u30EF\u30FC\u30C9\u306E\u6587\u5B57\u6570\u304C\u7570\u306A\u3063\u3066\u3044\u305F"
+    returnRoom:
+    - expandFlag: 0
+      english: It was too late to return
+      japanese: "\u52E2\u3044\u3042\u307E\u3063\u3066\u843D\u3061\u3066\u3057\u307E\u3063\u305F"
+  gameOver:
+  - expandFlag: 0
+    english: Reached Room Number
+    japanese: "\u5230\u9054\u3057\u305F\u30EB\u30FC\u30E0\u6570"
+  - expandFlag: 0
+    english: Summary
+    japanese: "\u8A73\u7D30"
+  - expandFlag: 0
+    english: Press "Esc" to quit game
+    japanese: "\"Esc\"\u3067\u30B2\u30FC\u30E0\u3092\u7D42\u4E86\u3059\u308B"
+  tutorial:
+  - expandFlag: 1
+    english: 'The purpose of this game is to escape from this room quickly.
+
+      Press
+      "E" near the door to open it.'
+    japanese: "\u3053\u306E\u30B2\u30FC\u30E0\u306E\u76EE\u7684\u306F\u7D20\u65E9\u304F\u90E8\u5C4B\u3092\u8131\u51FA\u3059\u308B\u3053\u3068\u3060\u3002\n\u6249\u306B\u8FD1\u3065\u3044\u3066\"E\"\u3092\u62BC\u3059\u3053\u3068\u3067\u958B\u304F\u3053\u3068\u304C\u3067\u304D\u308B\u3002\u3000"
+  - expandFlag: 1
+    english: "If the room has several doors, you need to open the  door with the
+      correct room number. \nYou need to remember the number of the previous room."
+    japanese: "\u6249\u304C\u8907\u6570\u3042\u308B\u5834\u5408\u306F\u6B63\u3057\u3044\u90E8\u5C4B\u756A\u53F7\u304C\u66F8\u304B\u308C\u305F\u6249\u3092\u958B\u3051\u3002\n\u5E38\u306B\u524D\u306E\u90E8\u5C4B\u756A\u53F7\u3092\u8A18\u61B6\u3059\u308B\u3053\u3068\u304C\u6C42\u3081\u3089\u308C\u308B\u3002\u3000"
+  - expandFlag: 1
+    english: Follow the right.
+    japanese: "\u5149\u3092\u8FBF\u308C\u3002"
+  - expandFlag: 1
+    english: The light may move away from you.
+    japanese: "\u5149\u306F\u541B\u3092\u5F15\u304D\u96E2\u305D\u3046\u3068\u3059\u308B\u304B\u3082\u3057\u308C\u306A\u3044\u3002"
+  - expandFlag: 1
+    english: Memorize the thing drawn on the wall, and enter it into the keypad to
+      open the door.
+    japanese: "\u58C1\u306B\u63CF\u304B\u308C\u305F\u3082\u306E\u3092\u899A\u3048\u3001\u30AD\u30FC\u30D1\u30C3\u30C9\u306B\u5165\u529B\u3057\u3066\u6249\u3092\u958B\u3051\u3002"
+  - expandFlag: 1
+    english: The drawing is not always in front of you.
+    japanese: "\u5FC5\u305A\u3057\u3082\u3059\u3050\u76EE\u306E\u4ED8\u304F\u3068\u3053\u308D\u306B\u63CF\u304B\u308C\u3066\u3044\u308B\u3068\u306F\u9650\u3089\u306A\u3044\u3002"
+  - expandFlag: 1
+    english: 
+    japanese: 
+  - expandFlag: 1
+    english: Return quickly when you find an anomaly in the room.
+    japanese: "\u90E8\u5C4B\u306B\u7570\u5E38\u3092\u611F\u3058\u305F\u3089\u3059\u3050\u306B\u5F15\u304D\u8FD4\u305B\u3002"
+  - expandFlag: 1
+    english: "The clock displayed below shows the time until the light in the room
+      goes out completely.  \nAfter 3 seconds from when the clock turns white, the
+      game will be over."
+    japanese: "\u4E0B\u306B\u793A\u3055\u308C\u305F\u6642\u8A08\u306F\u90E8\u5C4B\u304C\u5B8C\u5168\u306B\u6697\u304F\u306A\u308B\u307E\u3067\u306E\u6642\u9593\u3092\u8868\u3057\u3066\u3044\u308B\u3002\n\u767D\u304F\u306A\u3063\u3066\u304B\u30893\u79D2\u7D4C\u3064\u3068\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC\u3060\u3002"
+  titleInfo:
+    expandFlag: 1
+    english: 'Press "L" to change language
+
+      Press "C" to show / hide credit'
+    japanese: "\"L\"\u3067\u4F7F\u7528\u8A00\u8A9E\u3092\u5909\u3048\u308B\n\"C\"\u3067\u30AF\u30EC\u30B8\u30C3\u30C8\u8868\u793A/\u975E\u8868\u793A"
+  credit:
+    expandFlag: 1
+    english: 'Sound Effects
+
+
+      OtoLogic
+
+      https://otologic.jp
+
+
+      DOVA-SYNDROME
+
+      https://dova-s.jp
+
+
+      Pocketsound
+
+      https://pocket-se.info
+
+
+      Graphic
+
+
+      ICOOON
+      MONO
+
+      https://icooon-mono.com'
+    japanese: "\u52B9\u679C\u97F3\n\nOtoLogic\nhttps://otologic.jp\n\nDOVA-SYNDROME\nhttps://dova-s.jp\n\n\u30DD\u30B1\u30C3\u30C8\u30B5\u30A6\u30F3\u30C9\nhttps://pocket-se.info\n\n\u30B0\u30E9\u30D5\u30A3\u30C3\u30AF\n\nICOOON
+      MONO\nhttps://icooon-mono.com"
