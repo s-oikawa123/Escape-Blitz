@@ -39,7 +39,7 @@ public class Password : RoomInfo
         {
             gameManager.KeypadManager.SetUp(suffuleFlag, answer.Substring(0, answer.Length - 1), passVariant);
             summery = GameManager.Text_C.FailReason.PasswordRoom[0].GetString();
-            exitTime = 6;
+            exitTime = 7f;
         }
         else
         {

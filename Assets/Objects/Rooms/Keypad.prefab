@@ -1093,7 +1093,7 @@ MonoBehaviour:
   roomContainer: {fileID: 11400000, guid: a5623cfec9477e24d84e030004af3c75, type: 2}
   exitPoint: {x: 0, y: 0, z: 20}
   exitRotation: 0
-  UsableBackDoor: 1
+  hasAnomalyFlag: 1
   frontGoalPosition: {fileID: 3146402197143293116}
   backGoalPosition: {fileID: 7893117828428560617}
   roomLight:

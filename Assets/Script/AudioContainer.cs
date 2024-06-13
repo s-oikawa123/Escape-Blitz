@@ -26,6 +26,7 @@ namespace Container
     {
         NoLightsBehindIntro,
         NoLightsBehindLoop,
+        NoLightsBehindIntenseLoop,
         ARoomOfVoid
     }
 

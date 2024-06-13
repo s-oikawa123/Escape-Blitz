@@ -98,7 +98,7 @@ public abstract class RoomInfo : MonoBehaviour
 
             if (roomNumber == 1)
             {
-                backDoorManager.gameObject.SetActive(true);
+                backDoorManager?.gameObject.SetActive(true);
                 backDoorVisibleFrag = true;
             }
 

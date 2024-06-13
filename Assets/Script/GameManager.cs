@@ -321,6 +321,11 @@ public class GameManager : MonoBehaviour
             gameUI.inGameUI.DisplayEvaluate(0);
         }
 
+        if (roomCount == 11)
+        {
+            musicPlayer.ChangeMusicSeamless(NameBGM.NoLightsBehindIntenseLoop, 1);
+        }
+
         previousRoomInfo = roomInfo;
         roomInfo = nextRoomInfo;
         nextRoomInfo = GenerateRoom();

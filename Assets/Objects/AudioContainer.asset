@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: AudioContainer
   m_EditorClassIdentifier: 
   BGM:
-  - {fileID: 8300000, guid: 9f2c5ff9c4e925a44a7757701ac8e059, type: 3}
-  - {fileID: 8300000, guid: 1a8dd17c617c9fd48beb6772b7a87740, type: 3}
+  - {fileID: 8300000, guid: 2c840a6e489a49047ba8fc0eee9917b8, type: 3}
+  - {fileID: 8300000, guid: 791446b4e8005a841b6c363908c1d188, type: 3}
+  - {fileID: 8300000, guid: 2549eb58520f83a43a643cd04b6d5a20, type: 3}
   - {fileID: 8300000, guid: 7a4a456af7b7d6a4ba56a67da8550950, type: 3}
   SE:
   - {fileID: 8300000, guid: 7ae082d697f995449abb88e9b636f31a, type: 3}
