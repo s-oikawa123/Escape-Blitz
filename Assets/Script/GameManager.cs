@@ -321,9 +321,9 @@ public class GameManager : MonoBehaviour
             gameUI.inGameUI.DisplayEvaluate(0);
         }
 
-        if (roomCount == 11)
+        if (roomCount == 50)
         {
-            musicPlayer.ChangeMusicSeamless(NameBGM.NoLightsBehindIntenseLoop, 1);
+            musicPlayer.ChangeMusicSeamless(NameBGM.NoLightsBehindIntenseLoop, 2);
         }
 
         previousRoomInfo = roomInfo;

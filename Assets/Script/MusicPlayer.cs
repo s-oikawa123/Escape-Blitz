@@ -78,6 +78,7 @@ public class MusicPlayer : MonoBehaviour
     public void Stop()
     {
         audioSource[manageSourceIndex].Stop();
+        audioSource[unmanageSourceIndex].Stop();
         startFlag = false;
     }
 
