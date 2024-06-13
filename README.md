@@ -2,7 +2,7 @@
 決められた制限時間で部屋から脱出することをできる限り繰り返す、スコアアタック形式のゲームとなっています。部屋の内容は、複数のドアの内、正しいドアを開ける、一定間隔で光る道を辿るなどがあり、最終的にはただドアに向かうだけのゲームではありますが、考えることが多くあり、その上、スピーディーなゲームの流れとなっているので、満足性が高いゲームであると感じております。
 # アプリケーションのリンク
 以下のGoogleドライブのリンクに、このプロジェクトのexe形式のアプリケーションをzip形式で圧縮し、載せております。
-https://drive.google.com/file/d/1WPyu6hEQxW21PNZjFHLrZUNh3h6SReX-/view?usp=drivesdk
+[https://drive.google.com/file/d/1WPyu6hEQxW21PNZjFHLrZUNh3h6SReX-/view?usp=drivesdk](https://drive.google.com/drive/folders/1AATigI-EYCxyhhVKPDH9MLNKel9F10qQ?usp=drive_link)
 # コード特徴
 ## 抽象クラスの活用
 後に追加するかもしれない部屋の振る舞いの記述を簡単にするために、基礎的な処理をRoomInfoに記述し、抽象クラスとしています。また、他コンポーネントにおいて、部屋の種類ごとに参照方法を変える必要性を無くすために抽象メゾットの活用も行っています。
